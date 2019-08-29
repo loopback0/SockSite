@@ -1,7 +1,7 @@
 {
     "database": "servercooties.sql",
     "chunkSize": 200,
-    "pollDelay": 5,
+    "pollDelay": 45,
     "dataPeriod": 600,
     "graphPeriod": 3600,
     "historyEntries": 11,
@@ -13,8 +13,7 @@
     "message-bus": false,
     "checks": [
         "https://what.thedailywtf.com/",
-        "https://what.thedailywtf.com/recent",
-        "https://what.thedailywtf.com/topic/2"
+        "https://what.thedailywtf.com/recent"
     ],
     "siteSettings":"https://what.thedailywtf.com/site/settings.json",
     "scoreCode": {
@@ -31,8 +30,8 @@
         "75": "The site seems to be working fine."
     },
     "flavor": {
-        "0": ["Well, It's buggered. Looks like it's time to be productive. Or at least slack off somewhere else, like <a href=' http://discuss.thereal.wtf/'>discuss.thereal.wtf</a>"],
-        "25": ["Well, Looks like you're gonna have to fill out that TPS report after all. It can be addressed to <a href=' http://discuss.thereal.wtf/'>discuss.thereal.wtf</a>"],
+        "0": ["Well, It's buggered. Looks like it's time to be productive. Or at least slack off somewhere else"],
+        "25": ["Well, Looks like you're gonna have to fill out that TPS report after all. It can be addressed to /dev/null"],
         "50": ["We've seen some blips recently. Nothing to get too alarmed at yet."],
         "75": ["The forums work, so if you can't post then TRWTF is user cooties."]
     },

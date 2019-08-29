@@ -48,7 +48,7 @@ exports.getScore = function getScore(check) {
     }
 
     //Exponential regression: y = 150/x^3, capped at 0 and 100
-    var score = 150 / Math.pow(time, 3);
+    var score = 150 / Math.pow(time, 2);
 
     if (score > 100) {
         score = 100;
