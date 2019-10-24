@@ -13,6 +13,7 @@
     "message-bus": false,
     "checks": [
         "https://what.thedailywtf.com/",
+	"https://what.thedailywtf.com/topic/2",
         "https://what.thedailywtf.com/recent"
     ],
     "siteSettings":"https://what.thedailywtf.com/site/settings.json",
